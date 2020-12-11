@@ -77,6 +77,10 @@ p {
   font-size: 3.2rem;
 }
 
+.header {
+  width: 100%;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,16 +92,17 @@ p {
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.274);
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.274);
+  padding: 2rem 0;
 }
 
 .navs {
+  padding: 0 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 40px;
-  padding: 2rem;
 }
 
 .navs p {
@@ -107,7 +112,8 @@ p {
 }
 
 .button-container {
-  background-color: #424242;
+  margin-right: 2rem;
+  background-color: #d8d8d8;
   height: 41px;
   width: 76px;
 }

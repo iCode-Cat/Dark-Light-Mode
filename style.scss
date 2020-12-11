@@ -89,21 +89,29 @@ p {
 
 }
 
+.header {
+  width: 100%;
+  
+}
+
 .navbar {
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.274);
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.274);
+  padding: 2rem 0;
+  
 
 }
 
 .navs {
+  
+  padding: 0 2rem;
   display: flex;
   gap: 40px;
-  padding: 2rem;
   p {
     opacity: 100%;
     color:$primary-color;
@@ -112,7 +120,8 @@ p {
 }
 
 .button-container {
-  background-color: $on-background;
+  margin-right: 2rem;
+  background-color: rgb(216, 216, 216);
   height: 41px;
   width: 76px;
 }
